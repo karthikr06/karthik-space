@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>karthik-space</title>        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body {
+                font-family: 'Google Sans Code', monospace;
+                background-color: #1a1a1a;
+                color: #e0e0e0;
+                margin: 0;
+                padding: 40px 20px;
+                line-height: 1.6;
+            }
+
+            .container {
+                max-width: 750px;
+                margin: 0 auto;
+            }
+
+            header {
+                background: #222222;
+                padding: 30px;
+                border-radius: 8px;
+                border: 1px solid #333333;
+                text-align: center;
+                margin-bottom: 35px;
+            }
+
+            header h1 {
+                font-size: 24px;
+                color: #60a5fa;
+                margin-bottom: 5px;
+            }
+
+            header p {
+                font-size: 14px;
+                color: #aaaaaa;
+                margin-bottom: 15px;
+            }
+
+            .contactLinks a {
+                color: #aaaaaa;
+                font-size: 24px;
+                margin: 0 10px;
+                text-decoration: none;
+            }
+
+            .contactLinks a:hover {
+                color: #60a5fa;
+            }
+
+            section {
+                margin-bottom: 30px;
+                background: #222222;
+                padding: 25px;
+                border-radius: 8px;
+                border: 1px solid #333333;
+            }
+
+            h2 {
+                font-size: 18px;
+                color: #93c5fd;
+                margin-top: 0;
+                margin-bottom: 15px;
+            }
+
+            h3 {
+                font-size: 14px;
+                color: #ffffff;
+                margin: 15px 0 5px 0;
+            }
+
+            p {
+                font-size: 14px;
+                color: #cccccc;
+            }
+
+            ul {
+                margin: 5px 0 15px 0;
+                padding-left: 20px;
+            }
+
+            li {
+                font-size: 14px;
+                color: #cccccc;
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">            
+            <header>
+                <h1 id="greeting">Hello, I'm Karthik</h1>
+                <p>Welcome to my space! Student & Developer @ VIT Vellore</p>
+                <div class="contactLinks">
+                    <a href="https://www.linkedin.com/in/karthik-r-0b346236a/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                    <a href="https://github.com/karthikr06" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </header>
+
+            <section>
+                <h2>00. About Me</h2>
+                <p>
+                    I'm a passionate developer currently pursuing my studies at VIT Vellore. I love exploring how software works behind the scenes and building things that solve real-world problems. When I'm not coding, you can usually find me diving into tech forums or working on side projects.
+                </p>
+            </section>
+
+            <section>
+                <h2>01. Core Skills</h2>
+                
+                <h3>Programming Languages:</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C / C++</li>
+                    <li>C# (Learning .NET stack)</li>
+                </ul>
+
+                <h3>Web Development:</h3>
+                <ul>
+                    <li>HTML / CSS</li>
+                    <li>JavaScript</li>
+                    <li>React (Basics)</li>
+                </ul>
+
+                <h3>Currently Exploring:</h3>
+                <ul>
+                    <li>WinUI3 for native desktop development</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>10. What I'm Building</h2>
+                <ul>
+                    <li><strong>Native Windows Applications</strong> - Tinkering with C# and WinUI3 to build desktop apps.</li>
+                    <li><strong>TickDroid Discord Bot</strong> - An AI powered Discord Assistant for managing tasks, providing information and improving user experience.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>11. My Goals</h2>
+                <p>
+                    My goal is to become a proficient software developer and contribute to projects that make a positive impact. I aspire to work on innovative technologies and collaborate with like-minded people to create solutions that help others. I am also keen on learning new programming languages and constantly expanding my tech stack.
+                </p>
+            </section>
+
+        </div>
+
+        <script>
+            const greeting = document.getElementById('greeting');
+            const currentHour = new Date().getHours();
+            
+            if (currentHour < 12) {
+                greeting.innerText = "Good Morning, I'm Karthik";
+            } else if (currentHour < 17) {
+                greeting.innerText = "Good Afternoon, I'm Karthik";
+            } else {
+                greeting.innerText = "Good Evening, I'm Karthik";
+            }
+        </script>
+
+    </body>
+</html>
